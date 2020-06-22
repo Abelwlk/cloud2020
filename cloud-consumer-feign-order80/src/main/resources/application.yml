@@ -21,3 +21,8 @@ feign:
       default:
         connectTimeout: 5000
         readTimeout: 5000
+
+logging:
+  level:
+    #feign日志以什么级别监控哪个接口
+    wlk.springcloud.service.PaymentFeignService: debug
